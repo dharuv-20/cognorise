@@ -1,0 +1,67 @@
+body {
+    font-family: Fantasy , sans-serif;
+    margin: 100px auto;
+    padding: 0;
+    background: linear-gradient(to bottom right, rgb(68, 80, 241), rgb(18, 12, 51));
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.container {
+    background-color: rgb(124, 196, 255);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 2%;
+}
+
+h1 {
+    text-align: center;
+
+}
+h1:hover{
+    font-style: italic;
+    color: blue;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 75px;
+}
+
+input[type="number"] {
+    width: 100px;
+
+}
+.hh{
+
+    border: 2px solid black;
+    border-radius: 8px;
+}
+button {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    margin: 0 auto;
+}
+button:hover{
+    color: blue;
+    font-size: larger;
+}
+#result {
+    margin-top:0px;
+    background-color: azure;
+    margin: 20px auto;
+    text-align: center;
+}
+
